@@ -1,0 +1,8 @@
+CREATE DATABASE proyecto;
+
+CREATE TABLE usuario (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    usuario VARCHAR(50) NOT NULL UNIQUE,
+    clave VARCHAR(50) NOT NULL UNIQUE,
+    nombre_completo VARCHAR(100) NOT NULL UNIQUE
+);
